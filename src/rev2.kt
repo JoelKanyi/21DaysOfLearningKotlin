@@ -1,4 +1,3 @@
-package kotlincodes
 
 interface School{
     fun finance()
