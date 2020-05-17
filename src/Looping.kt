@@ -11,10 +11,10 @@ fun main() {
     }
 
     //do while loop
-   var i = 0
+   var j = 0
     do {
-        print(i)
-        i+=1
+        print(j)
+        j+=1
     }
         while (i<=10)
 }
