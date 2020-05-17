@@ -55,13 +55,16 @@ fun main(){
             print("Hello $name")
         }
     }
+
+    //this class overrides the sayHello function in Employer class
     class Employee : Employer() {
         override fun sayHello(name: String) {
             super.sayHello(name)
             print("this method has been overridden from the base class")
         }
     }
-
+    //instance of the Employee class
     val emp1 = Employee()
+
     emp1.sayHello("Joel")
 }
