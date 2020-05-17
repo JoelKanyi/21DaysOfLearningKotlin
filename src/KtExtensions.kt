@@ -6,11 +6,15 @@ fun main() {
 
     val num1:Int = 5
     val num2:Int = 4
+
+    //using the greaterValue extension function
     val greaterVal = num1.greaterValue(num2)
     println(greaterVal)
 
     val student = Student()
 
+
+    //utilising the Student class without really changing its function
     fun Student.isScholar(grade:Int) : Boolean{
         if(grade>60)
             print("scholar")
@@ -20,7 +24,7 @@ fun main() {
     }
 
 
-
+    //invoking the add function with a string object before the .
     println(str3.add(str1,str2))
     println()
 
