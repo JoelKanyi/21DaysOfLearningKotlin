@@ -1,4 +1,3 @@
-package kotlincodes
 
 class BankOperations(bal:Double) {
 
